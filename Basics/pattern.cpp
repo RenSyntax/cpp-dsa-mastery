@@ -43,15 +43,17 @@ void pattern3(int b) {
 
 void pattern4(int l) {
   // outer loop for the rows;
-  for (int i = 0; i < l; i++) {
-    for (int j = 0; j <= l; j++) {
+  for (int i = 1; i < l; i++) {
+    for (int j = 1; j <= i; j++) {
+      cout << i << " ";
     }
+    cout << endl;
   }
 }
 int main() {
   int input{};
   cout << "Please Enter the Number of Symetry: ";
   cin >> input;
-  pattern3(input);
+  pattern4(input);
   return 0;
 }
