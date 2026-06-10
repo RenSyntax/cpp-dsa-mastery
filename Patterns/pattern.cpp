@@ -76,7 +76,7 @@ void pattern4(int n) {
 
   for (int i = 1; i <= n; i++) {
     for (int j = 1; j <= i; j++) {
-      cout << i; // outside 'for' loop determines the rows, wnen you use it
+      cout << i; // outside 'for' loop determines the rows, when you use it
                  // inside a nested loop, it acts as a constant, example '1',
                  // '2' or '3'....
     }
