@@ -88,10 +88,16 @@ void pattern4(int n) {
 void pattern5(int n) {
 
   /* Example:
-
+  *****
+  ****
+  ***
+  **
+  *
   */
 
-  for (int i =)
+  for (int i = 0; i <= n; i++) {
+    for (int j = 0; j <= n)
+  }
 }
 
 // backend:
