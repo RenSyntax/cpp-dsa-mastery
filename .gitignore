@@ -1,0 +1,10 @@
+# Ignore compiled binaries:
+
+# For Linux
+*.out 
+
+# For Windows
+*.exe 
+
+# Object files for C++
+*.o

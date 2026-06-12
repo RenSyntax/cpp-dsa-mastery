@@ -1,47 +1,109 @@
-# 🚀 Personal Repo of Learning **C++**:
----
-This Repo contains all the code i wrote during my journey of learning **C++**.
- Which is my **First Programming Language**.
+# 🚀 C++ Data Structures & Algorithms Mastery
 
-## 📚 Concepts Targets To Cover:
-- [x] Introduction To Cpp **Completed**
-- [x] C++ Basics **Completed**
-- [x] Operators in C++ **Completed**
-- [x] Control Structures and Functions **Completed**
-- [ ] Standard Template Library **In Process**
-
-## 🛠️ Tech Stack & Tool Used:
-Used basic tools.
-
-- **Language**: C++
-- **Environemnt**: VS Code
-
-## ⚡ Repo Highlights:
-- **[Attendence Calculator](./Control_Structure_Functions/attendence_calculator.cpp):**
-  - Makes use of Functions and Loops.
-
-- **[ATM Simulator](./Control_Structure_Functions/atm_with_loop.cpp)** 
-  - Makes use of Loops.
-
-- **[To-Do List](./Control_Structure_Function/to_do_list.cpp):** 
-  - Basic programme;
-  - Makes use of if/else Statements only.
+> ⚠️ **Important Note:** This repository is a live, ongoing learning journey and is currently **in progress**. The listed topics represent my long-term roadmap. Some directories or files may be empty or under construction as I take the time to learn and implement each concept.
 
 ---
 
-# 🚀 My Documented journery of Learning Data Structures and Algorithms (DSA):
----
-Welcome to my personal repository dedicated to mastering **Data Structures and Algorithms (DSA)**. This repo serves as personal documentation and progress tracking for problems i solve and concepts i learn.
-
-## 📊 Current Progress:
-Currently, I am learning specific topics, in future progress, from LeetCode, will be added.
-
-- Basic Patterns | In Progress
-
-## 🛠️ Tech Stack & Tool Used:
-Mostly use basic tools for now.
-
- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="35" height="35" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="35" height="35" style="margin-right: 10px;"/>
+Welcome to the **RenSyntax** repository dedicated to mastering C++ and Data Structures & Algorithms (DSA). This repository serves as a structured timeline of my learning journey, moving from basic syntax to complex algorithmic paradigms.
 
 ---
+
+## 📂 Repository Structure
+
+The project right now is organized logically into three major phases:
+
+* **`01_cpp_fundamentals/`** - Core language concepts including basic syntax, Object-Oriented Programming (OOPs), pointers, references, and Dynamic Memory Allocation (DMA).
+
+* **`02_data_structures/`** - Implementations of standard data structures like Linked Lists, Stacks, Queues, Trees, and Graphs.
+
+* **`03_algorithms/`** - Standard problem-solving paradigms including Searching/Sorting, Recursion, Backtracking, and Dynamic Programming.
+
+---
+
+## 🛠️ Environment Setup
+
+Before running the code, you need to ensure you have `Git` and a `C++` compiler installed on your machine. Follow the guide below for your operating system:
+
+### 1. Linux
+
+> ⚠️ **Important Note for Linux Users:** The command below is specifically for **Debian/Ubuntu-based distributions (like Linux Mint or Pop!_OS)**. If you are using a different distribution (like Arch, Fedora, or openSUSE), packages and commands will vary. Please check your specific distribution's documentation online to install Git and the base development tools.
+
+Run the following command for **Debian/Ubuntu-based distributions**
+
+```bash
+sudo apt update && sudo apt install build-essential git -y
+```
+
+### 2. Windows
+
+* **For Git:** Download and install [Git for Windows](https://git-scm.com/install/windows).
+
+* **For C++ Compiler:** The easiest way to get g++ on Windows is by downloading [MinGW-w64 via MSYS2](https://www.msys2.org) or installing the "Desktop development with C++" workload via [Visual Studio Community](https://visualstudio.microsoft.com).
+
+* sure both Git and MinGW are added to your system's environment **PATH** variables.
+
+### 3. macOS
+
+macOS makes this incredibly simple via the Terminal. Running this command will prompt you to install Apple's Command Line Tools, which includes both Git and the Clang C++ compiler (g++ alias):
+
+```bash
+xcode-select --install
+```
+
+---
+
+## 💻️ Running Code Locally
+
+### 1. Clone the repository:
+
+Open terminal in a folder(the one you would like to clone the repo in) and run the following command in your respective terminal/konsole:
+
+   ```bash
+   git clone https://github.com/rensyntax/cpp-dsa-mastery.git
+   ```
+
+### 2. Navigate into the directory:
+
+Run the following command to navigate to following files of repo:
+
+```bash
+cd cpp-dsa-mastery/01_cpp_fundamentals/basic_syntax
+```
+
+> **Note:** replace `01_cpp_fundamentals/basic_syntax` to whatever location you want to navigate.
+
+### 3. Compile the file:
+
+Run the following command in your respective terminal:
+
+```bash
+  g++ main.cpp -o main
+```
+> **Note:** replace `main.cpp` with the name of the file you would like to run.
+
+---
+
+## 📈 Goals
+
+- [ ] Complete core `C++` concepts required for **data strructures & algorithms**.
+
+- [ ] Implement and understand all fundamental **data structures**
+
+- [ ] Solve **200+** standard `DSA` problems across standard paradigms.
+
+- [ ] Maintain **clean**, **readable**, and **well-commented/docummented** code.
+
+---
+
+> 📝 **Final Reflective Note:** You might notice that some of the code inside the `01_cpp_fundamentals/` directory looks a bit messy, unoptimized, or even slightly incorrect by industry standards. This is entirely intentional! That code represents the absolute beginning of my C++ journey. Instead of rewriting or deleting it to look perfect, I have chosen to leave it exactly as it was written. This serves as a permanent, documented benchmark so I can look back and visually track how much my coding skills, logic, and efficiency improve over time.
+
+---
+
+## 📄 License
+This project is open-source and licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+`Thank you for reading, have a nice day ahead. 👋`
+
+-- RenSyntax
