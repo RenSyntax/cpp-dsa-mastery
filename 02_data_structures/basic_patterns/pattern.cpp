@@ -171,6 +171,10 @@ void pattern8(int n) {
   }
 }
 
+// Pattern 9: Mentioned bellow in Daily Practice section.
+
+
+
 // ---
 
 // Daily Practice:
@@ -261,11 +265,32 @@ void pattern8(int n) {
 }
   */
 
-  
+// pattern 9:
+/*
+Example:
+        *
+       ***
+      *****
+     *******
+    *********    
+    *********
+     *******
+      *****
+       ***
+        *
+
+you don't have to write a new program, you can just combine patten 7 and 8:
+in the backend:
+pattern7(input);
+pattern8(input); 
+*/
+
+
+
 // backend:
 int main() {
   int input{};
   cin >> input;
-  pattern8(input);
+  pattern9(input);
   return 0;
 }
