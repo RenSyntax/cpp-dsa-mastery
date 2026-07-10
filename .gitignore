@@ -1,11 +1,55 @@
-# Ignore compiled binaries:
-
-# For Linux
-program
-*.out 
-
-# For Windows
-*.exe 
-
-# Object files for C++
+# ==========================================
+# C++ Compiled Binaries and Objects
+# ==========================================
 *.o
+*.obj
+*.so
+*.a
+*.la
+*.lo
+*.out
+*.exe
+*.app
+
+# ==========================================
+# CMake and Build Directories
+# ==========================================
+# Ignores standard build folders
+/build/
+/bin/
+/out/
+CMakeFiles/
+CMakeCache.txt
+CMakeCompilerIdC.c
+CMakeCompilerIdCXX.cpp
+cmake_install.cmake
+Makefile
+
+# ==========================================
+# IDE and Text Editors
+# ==========================================
+# Qt Creator 
+*.user
+*.user.*
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+
+# Vim / Neovim swap files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+# ==========================================
+# Linux / OS Specific
+# ==========================================
+.DS_Store
+Thumbs.db
+*~

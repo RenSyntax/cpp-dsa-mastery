@@ -173,7 +173,20 @@ void pattern8(int n) {
 
 // Pattern 9: Mentioned bellow in Daily Practice section.
 
+void pattern10(int n) {
+  for (int i = 1; i <= 2*n-1; i++) {
+    int stars = i;
 
+    if (i > n) {
+      stars = 2*n-i;
+    }
+
+    for (int j = 1; j <= stars; j++) {  
+      cout << "*";
+    }
+    cout << endl;
+  }
+}
 
 // ---
 
@@ -291,6 +304,6 @@ pattern8(input);
 int main() {
   int input{};
   cin >> input;
-  pattern9(input);
+  pattern10(input);
   return 0;
 }
