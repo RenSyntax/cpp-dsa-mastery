@@ -15,7 +15,6 @@
 # CMake and Build Directories
 # ==========================================
 # Ignores standard build folders
-/build/
 /bin/
 /out/
 CMakeFiles/
